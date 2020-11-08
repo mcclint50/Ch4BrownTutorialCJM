@@ -1,0 +1,18 @@
+{
+  "name": "meadowlark.js",
+  "version": "1.0.0",
+  "description": "Brown tutorials chapter 3 exercise",
+  "main": "meadowlark.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Colin McClintic",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0"
+  },
+  "devDependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
