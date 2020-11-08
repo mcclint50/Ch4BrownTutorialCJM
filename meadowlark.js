@@ -20,11 +20,12 @@ app.get('/about', (req, res) => {
 
 app.use(express.static(__dirname + '/public'))
 
-app.get('/api/vacations', handlers.getVacationsApi)
-app.get('/api/vacation/:sku', handlers.getVacationBySkuApi)
-app.post('/api/vacation/:sku/notify-when-in-season',
-  handlers.addVacationInSeasonListenerApi)
-app.delete('/api/vacation/:sku', handlers.requestDeleteVacationApi)
+
+//app.get('/api/vacations', handlers.getVacationsApi)
+//app.get('/api/vacation/:sku', handlers.getVacationBySkuApi)
+//app.post('/api/vacation/:sku/notify-when-in-season',
+//  handlers.addVacationInSeasonListenerApi)
+//app.delete('/api/vacation/:sku', handlers.requestDeleteVacationApi)
 
 // custom 404 page
 app.use((req, res) => {
